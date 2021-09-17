@@ -7,6 +7,8 @@ equivalent. At face value, this seems like it won't be a big undertaking,
 but I'm unsure just how deep the Node goes in this SDK. Luckily couchnode
 is primarily a wrapper around the c SDK.
 
+What follows is the remainder of the original Node.js SDK readme; Leaving it for now.
+
 ## Useful Links
 
 Source - [https://github.com/couchbase/couchnode](https://github.com/couchbase/couchnode)
