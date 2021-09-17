@@ -1,9 +1,11 @@
-# Couchbase Node.js Client
+# Couchbase Deno Client
 
-The Node.js SDK library allows you to connect to a Couchbase cluster from
-Node.js. It is a native Node.js module and uses the very fast libcouchbase
-library to handle communicating to the cluster over the Couchbase binary
-protocol.
+I've forked the couchnode repo with plans to make it work with Deno.
+Since the library has been remade in TypeScript, this should just amount
+to removing any Node specific features and replacing them with the Deno
+equivalent. At face value, this seems like it won't be a big undertaking,
+but I'm unsure just how deep the Node goes in this SDK. Luckily couchnode
+is primarily a wrapper around the c SDK.
 
 ## Useful Links
 
